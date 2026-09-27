@@ -237,3 +237,16 @@ address { font-style: normal; }
 }
 .demo-scroll { max-width: 300px; max-height: 58px; padding: 8px; border: 1px solid var(--line); }
 .demo-note { color: var(--muted); }
+
+/* Оформлення, перенесене з HTML у спільний CSS. */
+#author-title { text-align: center; }
+.author-greeting { font-size: 18px; }
+.author-interests { color: #333; }
+.author-goals { font-size: 18px; text-align: left; }
+.author-divider { height: 3px; border: 0; background-color: var(--blue); }
+#company-quote { color: var(--blue); }
+.new-label { color: var(--blue); font-weight: 700; }
+#news-list { margin-top: 20px; }
+#old-date { color: #777; }
+#sale-name { font-size: 18px; }
+.break-point { word-break: normal; }

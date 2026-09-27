@@ -8,9 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ByteMarket — новини</title>
   <link rel="stylesheet" href="assets/css/styles.css">
-  <style type="text/css" media="screen">
-    .new-label { color: #174a7e; font-weight: bold; }
-  </style>
 </head>
 <body>
   <header id="news-header" class="page-header site-header">
@@ -30,8 +27,6 @@
 
       <img
         src="assets/images/graphics-card.jpg"
-        vspace="10"
-        height="300"
         id="news-image"
         class="main-image"
         usemap="#news-map"
@@ -42,7 +37,6 @@
         tabindex="0"
         onblur=""
         accesskey="m"
-        style="outline: none;"
         target="_self">
         <area href="#gpu-news" shape="rect" coords="0,0,960,426" lang="uk" alt="Новина про графічні адаптери">
         <area href="#optical-news" shape="rect" coords="0,427,960,852" lang="uk" alt="Новина про CDRW">
@@ -50,19 +44,19 @@
       </map>
     </section>
 
-    <div id="news-list" style="margin-top: 20px;">
-      <article id="gpu-news" class="news story" style="border-left-color: #174a7e;">
+    <div id="news-list">
+      <article id="gpu-news" class="news story">
         <h2>Нові графічні адаптери вже у каталозі</h2>
         <p>
           <span id="gpu-label" title="Позначка новини" class="new-label">Нове:</span>
           ми додали дискретні графічні адаптери з пам'яттю 8 ГБ та 12 ГБ.
-          <del id="old-date" lang="uk" style="color: #777;">Поставка 10 вересня</del>
+          <del id="old-date" lang="uk">Поставка 10 вересня</del>
           <ins datetime="2026-09-01" lang="uk">Поставка 5 вересня</ins>.
         </p>
         <p>Для роботи адаптера рекомендований блок живлення потужністю 650 Вт<sup lang="uk">*</sup>.</p>
       </article>
 
-      <article id="optical-news" class="news story" style="border-left-color: #174a7e;">
+      <article id="optical-news" class="news story">
         <h2>Повернення пристроїв CDRW</h2>
         <p>
           Для навчальних кабінетів доступні внутрішні пристрої CDRW зі швидкістю 52x.
@@ -72,15 +66,15 @@
         <p><bdo dir="ltr">CDROM / CDRW</bdo></p>
       </article>
 
-      <article id="drive-news" class="news story" style="border-left-color: #174a7e;">
+      <article id="drive-news" class="news story">
         <h2>Знижка на вінчестери</h2>
         <p>
           До кінця місяця діє знижка на HDD об'ємом 1 ТБ і 2 ТБ. Назва акції:
-          <ruby id="sale-name" style="font-size: 18px;">DISK SALE</ruby>.
+          <ruby id="sale-name">DISK SALE</ruby>.
         </p>
         <p>
           Детальні характеристики можна знайти на сторінці компанії за адресою
-          company.<wbr class="break-point" style="word-break: normal;">html.
+          company.<wbr class="break-point">html.
         </p>
       </article>
     </div>
