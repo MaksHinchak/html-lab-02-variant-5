@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="Максим Гінчак">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Приклади CSS для лабораторної роботи №2, варіант 5">
+  <title>ByteMarket — приклади CSS</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Приклади CSS</h1>
+    <nav aria-label="Головна навігація">
+      <a href="index.html">Автор</a>
+      <a href="company.html">Про компанію</a>
+      <a href="news.html">Новини</a>
+      <a class="active" aria-current="page" href="css-demo.html">Приклади CSS</a>
+    </nav>
+  </header>
+  <main class="site-main">
+    <section class="content-section">
+      <h2>Селектори та псевдокласи</h2>
+      <p>Ця сторінка демонструє правила варіанта 5 на елементах сайту. Перший рядок абзацу має окремий колір, а перша літера картки виділена.</p>
+      <p class="intro-note">Псевдоелемент <code>::first-letter</code> виділяє цю літеру. Атрибутні селектори застосовано до зображень, посилань та новин.</p>
+      <ul><li>Перший пункт</li><li>Середній пункт</li><li>Останній пункт</li></ul>
+      <p lang="uk"><q>Українські лапки задані через :lang(uk).</q></p>
+    </section>
+    <section class="content-section">
+      <h2>Поля та рамки</h2>
+      <div class="demo-grid">
+        <div class="demo-box border-none spacing-fixed">none</div>
+        <div class="demo-box border-groove spacing-fixed">groove</div>
+        <div class="demo-box border-dashed spacing-fixed">dashed</div>
+        <div class="demo-box border-ridge spacing-fixed">ridge</div>
+      </div>
+      <p class="demo-box border-sized spacing-sample">Цей блок показує окремі кольори, ширину рамок, відступи та <code>outline</code>.</p>
+    </section>
+    <section class="content-section">
+      <h2>Розміри та розміщення</h2>
+      <p class="normal-line">Звичайна висота рядка: <span class="align-baseline">baseline</span>, <span class="align-sub">sub</span>, <span class="align-text-bottom">text-bottom</span>, <span class="align-bottom">bottom</span>.</p>
+      <p class="percent-line">Висота рядка 150%. Фон зображення нижче позиціоновано у відсотках.</p>
+      <div class="demo-photo image-position-percent" role="img" aria-label="Фрагмент зображення комп'ютерних комплектуючих"></div>
+      <p class="scroll-sample demo-scroll">Текст у блоці з overflow: auto. Розміри обмежені, тому за потреби з’являється прокрутка. Вміст залишається доступним.</p>
+      <p class="demo-note">Значення <code>display: compact</code> і <code>display: run-in</code> застарілі. У таблиці стилів після них записано підтримуване <code>inline</code>.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><small>Максим Гінчак · Лабораторна робота №2 · Варіант 5</small></footer>
+</body>
+</html>
