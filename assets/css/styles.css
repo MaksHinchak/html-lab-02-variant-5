@@ -224,20 +224,6 @@ address { font-style: normal; }
   nav a { display: inline-block; }
 }
 
-/* Приклади для css-demo.html */
-.demo-grid { display: flex; flex-wrap: wrap; gap: 10px; }
-.demo-box { padding: 15px; background: #f6fbfd; }
-.demo-grid .demo-box { min-width: 100px; border-width: 5px; }
-.demo-box.border-sized { border-style: solid; outline: 2px solid #67d6c0; }
-.demo-photo {
-  width: min(100%, 320px);
-  height: 120px;
-  border-radius: 10px;
-  background-size: cover;
-}
-.demo-scroll { max-width: 300px; max-height: 58px; padding: 8px; border: 1px solid var(--line); }
-.demo-note { color: var(--muted); }
-
 /* Оформлення, перенесене з HTML у спільний CSS. */
 #author-title { text-align: center; }
 .author-greeting { font-size: 18px; }
